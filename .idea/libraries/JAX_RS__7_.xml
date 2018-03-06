@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="JAX-RS (7)" type="JAX-RS">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/jaxrs-ri/ext/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaxrs-ri/ext/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

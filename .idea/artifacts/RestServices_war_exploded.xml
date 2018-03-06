@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RestServices:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RestServices_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RestServices/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RestServices" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-RS (2)" />
+          <element id="library" level="project" name="JAX-RS (3)" />
+          <element id="library" level="project" name="JAX-RS" />
+          <element id="library" level="project" name="JAX-RS (4)" />
+          <element id="library" level="project" name="JAX-RS (7)" />
+          <element id="library" level="project" name="JAX-RS (8)" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

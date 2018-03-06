@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1504605113764
+Build-Jdk: 1.8.0_144
+Built-By: pavel
+Bundle-Description: Jersey core Servlet 2.x implementation
+Bundle-DocURL: http://www.oracle.com/
+Bundle-License: https://oss.oracle.com/licenses/CDDL+GPL-1.1, https://
+ oss.oracle.com/licenses/CDDL+GPL-1.1
+Bundle-ManifestVersion: 2
+Bundle-Name: jersey-container-servlet-core
+Bundle-SymbolicName: org.glassfish.jersey.containers.jersey-container-
+ servlet-core
+Bundle-Vendor: Oracle Corporation
+Bundle-Version: 2.26.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.glassfish.jersey.servlet;uses:="javax.servlet,java
+ x.servlet.http,org.glassfish.jersey.internal.util,org.glassfish.jerse
+ y.internal.util.collection,org.glassfish.jersey.server,org.glassfish.
+ jersey.server.spi";version="2.26.0",org.glassfish.jersey.servlet.inte
+ rnal;uses:="javax.servlet,javax.servlet.http,org.glassfish.jersey.int
+ ernal.inject,org.glassfish.jersey.internal.l10n,org.glassfish.jersey.
+ server,org.glassfish.jersey.server.spi,org.glassfish.jersey.servlet.i
+ nternal.spi,org.glassfish.jersey.servlet.spi";version="2.26.0",org.gl
+ assfish.jersey.servlet.internal.spi;uses:="javax.servlet,javax.servle
+ t.http,org.glassfish.jersey.server,org.glassfish.jersey.server.spi";v
+ ersion="2.26.0",org.glassfish.jersey.servlet.spi;uses:="javax.servlet
+ ,javax.servlet.http";version="2.26.0"
+Import-Package: javax.persistence;resolution:=optional,javax.servlet;v
+ ersion="[2.4,5.0)",javax.servlet.http;version="[2.4,5.0)",javax.injec
+ t;version="[1.0,2)",javax.naming,javax.ws.rs;version="[2.1,3)",javax.
+ ws.rs.core;version="[2.1,3)",org.glassfish.jersey.internal;version="[
+ 2.26,3)",org.glassfish.jersey.internal.inject;version="[2.26,3)",org.
+ glassfish.jersey.internal.l10n;version="[2.26,3)",org.glassfish.jerse
+ y.internal.util;version="[2.26,3)",org.glassfish.jersey.internal.util
+ .collection;version="[2.26,3)",org.glassfish.jersey.message.internal;
+ version="[2.26,3)",org.glassfish.jersey.process.internal;version="[2.
+ 26,3)",org.glassfish.jersey.server;version="[2.26,3)",org.glassfish.j
+ ersey.server.internal;version="[2.26,3)",org.glassfish.jersey.server.
+ internal.scanning;version="[2.26,3)",org.glassfish.jersey.server.spi;
+ version="[2.26,3)",org.glassfish.jersey.servlet.internal,org.glassfis
+ h.jersey.servlet.internal.spi,org.glassfish.jersey.servlet.spi,org.gl
+ assfish.jersey.uri;version="[2.26,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
